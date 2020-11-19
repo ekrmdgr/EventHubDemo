@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubDemo.TestApplication", "EventHubDemo.TestApplication\EventHubDemo.TestApplication.csproj", "{DC54B644-9C11-4190-A9EC-106C952002A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubDemo.Sender", "EventHubDemo.TestApplication\EventHubDemo.Sender.csproj", "{DC54B644-9C11-4190-A9EC-106C952002A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubDemo.Listener", "EventHubDemo.Listener\EventHubDemo.Listener.csproj", "{AB682AE3-A45E-4FF3-9D63-79940C23BA4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DC54B644-9C11-4190-A9EC-106C952002A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC54B644-9C11-4190-A9EC-106C952002A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC54B644-9C11-4190-A9EC-106C952002A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB682AE3-A45E-4FF3-9D63-79940C23BA4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB682AE3-A45E-4FF3-9D63-79940C23BA4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB682AE3-A45E-4FF3-9D63-79940C23BA4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB682AE3-A45E-4FF3-9D63-79940C23BA4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
